@@ -312,12 +312,3 @@ nlgi.addEventListener('click', function () {
 
 
 });
-
-
-isInWebAppiOS = (window.navigator.standalone === true);
-isInWebAppChrome = (window.matchMedia('(display-mode: standalone)').matches);
-
-if(isInWebAppiOS == false && isInWebAppChrome == false){
-	$('body').html('<div class="nonono"> TEST <br></div>');
-	$('body').addClass('nononopage');
-}
