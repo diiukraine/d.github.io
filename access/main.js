@@ -271,3 +271,53 @@ pssprt.addEventListener('click', function () {
 	});
 
 });
+
+
+var n = 0
+
+var nlgi = document.querySelector(".nlgi");
+var playing = false;
+
+nlgi.addEventListener('click', function () {
+	n = n + 1;
+
+	if (n = 1) {
+		setTimeout(function () {
+			$('.nlgi > .content > .unloaded').css('opacity', '0');
+			$('.nlgi > .content > .loaded').css('opacity', '1');
+		}, 1500);
+	}
+
+	if (playing)
+		return;
+
+	$('.nlgi > .content').css('filter', 'brightness(0.8)');
+	setTimeout(function () {
+		$('.nlgi > .content').css('filter', 'brightness(1)');
+	}, 200);
+
+	playing = true;
+	anime({
+		targets: nlgi,
+		rotateY: {
+			value: '+=180',
+			delay: 0
+		},
+		easing: 'linear',
+		duration: 100,
+		complete: function (anim) {
+			playing = false;
+		}
+	});
+
+
+});
+
+
+isInWebAppiOS = (window.navigator.standalone === true);
+isInWebAppChrome = (window.matchMedia('(display-mode: standalone)').matches);
+
+if(isInWebAppiOS == false && isInWebAppChrome == false){
+	$('body').html('<div class="nonono">Нажмите по трем точкам в браузере и добавьте эту страницу на главный экран<br></div>');
+	$('body').addClass('nononopage');
+}

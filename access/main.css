@@ -2,13 +2,13 @@
 	font-family: "e-Ukraine";
 	font-weight: 400;
 	font-display: swap;
-	src: local("e-Ukraine"), local("e-Ukraine-Regular"), url(https://diiukraine.github.io/d.github.io/access/e-Ukraine-Regular.woff) format("woff")
+	src: local("e-Ukraine"), local("e-Ukraine-Regular"), url(e-Ukraine-Regular.woff) format("woff")
 }
 
 @font-face {
 	font-family: 'e-UkraineHead';
-	src: url(https://diiukraine.github.io/d.github.io/access/e-UkraineHead-Light.woff) format("woff");
-	src: local("e-UkraineHead"), local("e-UkraineHead-Medium"), url(https://diiukraine.github.io/d.github.io/access/e-UkraineHead-Medium.woff) format("woff");
+	src: url(e-UkraineHead-Light.woff) format("woff");
+	src: local("e-UkraineHead"), local("e-UkraineHead-Medium"), url(e-UkraineHead-Medium.woff) format("woff");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap
@@ -67,7 +67,7 @@ body {
 }
 
 .arrow {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/arrow.png);
+	background-image: url(icons/arrow.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -105,47 +105,47 @@ i.far {
 }
 
 .sos:nth-child(1)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/1.png);
+	background-image: url(icons/1.png);
 }
 
 .sos:nth-child(2)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/2.png);
+	background-image: url(icons/2.png);
 }
 
 .sos:nth-child(3)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/3.png);
+	background-image: url(icons/3.png);
 }
 
 .sos:nth-child(4)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/4.png);
+	background-image: url(icons/4.png);
 }
 
 .sos:nth-child(5)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/5.png);
+	background-image: url(icons/5.png);
 }
 
 .sos:nth-child(6)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/6.png);
+	background-image: url(icons/6.png);
 }
 
 .sos:nth-child(7)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/7.png);
+	background-image: url(icons/7.png);
 }
 
 .sos:nth-child(8)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/8.png);
+	background-image: url(icons/8.png);
 }
 
 .sos:nth-child(9)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/9.png);
+	background-image: url(icons/9.png);
 }
 
 .sos:nth-child(10)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/10.png);
+	background-image: url(icons/10.png);
 }
 
 .sos:nth-child(11)>span>div {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/11.png);
+	background-image: url(icons/11.png);
 }
 
 
@@ -297,7 +297,7 @@ i.far {
 }
 
 .gerb {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/gerb.png?1);
+	background-image: url(icons/gerb.png?1);
 	width: 16px;
 	height: 26px;
 	background-size: contain;
@@ -346,7 +346,7 @@ i.far {
 }
 
 .dots {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/dots.png);
+	background-image: url(icons/dots.png);
 	height: 7px;
 	width: 36px;
 	background-size: contain;
@@ -394,7 +394,7 @@ i.far {
 }
 
 .scanqr {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/qr.png?1);
+	background-image: url(qr.png?1);
 	background-size: contain;
 	background-position: center;
 	width: 20px;
@@ -402,7 +402,7 @@ i.far {
 }
 
 .diya {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/diya.svg);
+	background-image: url(diya.svg);
 	background-size: contain;
 	background-position: center;
 	width: 53px;
@@ -434,7 +434,7 @@ i.far {
 
 
 .doc>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/docin.png);
+	background-image: url(icons/docin.png);
 }
 
 .notifications>.footer {
@@ -447,7 +447,7 @@ i.far {
 }
 
 .okimg {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/ok.png);
+	background-image: url(icons/ok.png);
 	width: 40px!important;
 	height: 40px!important;
 	background-position: center;
@@ -464,31 +464,31 @@ i.far {
 }
 
 .doc.act>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/docac.png);
+	background-image: url(icons/docac.png);
 }
 
 .pos>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/posin.png);
+	background-image: url(icons/posin.png);
 }
 
 .pos.act>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/posac.png);
+	background-image: url(icons/posac.png);
 }
 
 .pov>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/notin.png);
+	background-image: url(icons/notin.png);
 }
 
 .pov.act>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/notac.png);
+	background-image: url(icons/notac.png);
 }
 
 .men>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/menuin.png);
+	background-image: url(icons/menuin.png);
 }
 
 .men.act>.ico {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/menuac.png);
+	background-image: url(icons/menuac.png);
 }
 
 .qr_title {
@@ -507,7 +507,7 @@ i.far {
 }
 
 .qricon {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/qrsh.png);
+	background-image: url(icons/qrsh.png);
 	background-size: contain;
 	background-position: center;
 	margin: auto;
@@ -527,7 +527,7 @@ i.far {
 }
 
 .zublogo {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/uasign.svg);
+	background-image: url(uasign.svg);
 	width: 75px;
 	height: 75px;
 	z-index: 234231;
@@ -537,7 +537,7 @@ i.far {
 }
 
 .diyalogo {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/diya.svg);
+	background-image: url(diya.svg);
 	width: 75px;
 	height: 75px;
 	z-index: 234234;
@@ -617,7 +617,7 @@ i.far {
 
 .eblo {
 	border: 0;
-	background-image: url(https://diiukraine.github.io/d.github.io/access/eblo.png)!important;
+	background-image: url(eblo.png)!important;
 	background-size: cover;
 	background-position: center;
 	width: 80px;
@@ -627,7 +627,7 @@ i.far {
 
 .krest {
 	border: 0;
-	background-image: url(https://diiukraine.github.io/d.github.io/access/krest.png)!important;
+	background-image: url(krest.png)!important;
 	background-size: cover;
 	background-position: center;
 	width: 80px;
@@ -814,7 +814,7 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAk8AAAUACAY
 }
 
 .more {
-	background-image: url(https://diiukraine.github.io/d.github.io/access/icons/3kita.png);
+	background-image: url(icons/3kita.png);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
